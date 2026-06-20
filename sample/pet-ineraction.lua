@@ -17,5 +17,5 @@ local Sleepy = function(Name)  Player.Character.HumanoidRootPart.CFrame = Worksp
     [4] = {
         ["cframe"] = HumanoidRootPart.CFrame,
     },
-    [5] = workspace.Pets.Cat,
+    [5] = workspace:FindFirstChild("Pets"):GetChildren()[1],
 }))
