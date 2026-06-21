@@ -33,7 +33,35 @@ local function mainMapP()
    SetLocation("MainMap", "MainDoor", {})
 wait(3)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-607.94,27.96,-1468.74)
-wait(4)
+wait(1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-607.94,27.96,-1468.74)
 end
-mainMapP()
+--mainMapP()
+
+local function School()
+   SetLocation("School", "MainDoor", {})
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -12002.91,6956.39, -3037.84)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -12002.91,6956.39, -3037.84)
+end
+--School()
+local function Ballon()
+   SetLocation("MainMap", "MainDoor", {})
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new( -9.69,42.60,-1411.49)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9.69,42.60,-1411.49)
+end
+
+-- Ballon()
+
+local function PizzaShop()
+   SetLocation("PizzaShop", "MainDoor", {})
+wait(3)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.70,6972.51,-5941.87)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.70,6972.51,-5941.87)
+end
+
+ PizzaShop()
