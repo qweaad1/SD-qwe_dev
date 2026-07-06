@@ -32,3 +32,14 @@ game:GetService("ReplicatedStorage").API["ToolAPI/ServerUseTool"]:InvokeServer(t
     [1] = "2_54463f3c1e644caca28b690db4fe44b4",
     [2] = "END",
 }))
+
+--feed pet
+game:GetService("ReplicatedStorage").API["PetObjectAPI/CreatePetObject"]:InvokeServer(table.unpack({
+    [1] = "__Enum_PetObjectCreatorType_2",
+    [2] = {
+        ["pet_unique"] = "2_dda01cd88be2434bb0ff77e77254471c",
+        ["additional_consume_uniques"] = {
+        },
+        ["unique_id"] = "2_188607a646ec4b9892d85349cd9cd064",
+    },
+}))
