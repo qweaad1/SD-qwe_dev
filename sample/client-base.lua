@@ -44,10 +44,10 @@ local tofarm
     if #allItems > 0 then
         
           
-        tofarm=    allItems[1].id, allItems[1].kind 
+        tofarm=    allItems[1].id
         
     end
-   -- print(tofarm)
+    print(tofarm)
     
 local playerName = game.Players.LocalPlayer and game.Players.LocalPlayer.Name
 
@@ -108,7 +108,7 @@ Remote.OnClientEvent:Connect(function(...)
     local dataType = args[2]
     local data = args[3]
     
-    -- Проверяем что ответ содержит нужные значения
+   
     local json = game:GetService("HttpService"):JSONEncode(args)
     if not string.find(json, TARGET_PLAYER) or not string.find(json, TARGET_PET) then
         return
