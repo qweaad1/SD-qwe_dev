@@ -22,3 +22,13 @@ game:GetService("ReplicatedStorage").API["ShopAPI/BuyItem"]:InvokeServer(table.u
         ["buy_count"] = 1,
     },
 }))
+
+--feed player
+game:GetService("ReplicatedStorage").API["ToolAPI/ServerUseTool"]:InvokeServer(table.unpack({
+    [1] = "2_54463f3c1e644caca28b690db4fe44b4",
+    [2] = "START",
+}))
+game:GetService("ReplicatedStorage").API["ToolAPI/ServerUseTool"]:InvokeServer(table.unpack({
+    [1] = "2_54463f3c1e644caca28b690db4fe44b4",
+    [2] = "END",
+}))
