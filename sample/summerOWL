@@ -1,0 +1,41 @@
+
+task.spawn(function()
+
+   pcall(function()
+
+     loadstring(game:HttpGet("http://192.168.3.4/antiafk.txt"))();
+
+  
+
+   end)
+
+end)
+
+  
+
+
+for i = 1, 25 do
+game:GetService("ReplicatedStorage").adoptme_new_net["adoptme_legacy_shared.ContentPacks.Summer2026.Game.BuriedTreasure.BuriedTreasureNet:13"]:InvokeServer()
+   for j = 1, 3 do
+
+     print(j)
+
+     pcall(function()
+
+       game:GetService("ReplicatedStorage").adoptme_new_net["adoptme_legacy_shared.ContentPacks.Summer2026.Game.BuriedTreasure.BuriedTreasureNet:23"]:InvokeServer()
+
+     end)
+
+     wait(3)
+
+     pcall(function()
+
+       game:GetService("ReplicatedStorage").adoptme_new_net["adoptme_legacy_shared.ContentPacks.Summer2026.Game.BuriedTreasure.BuriedTreasureNet:6"]:InvokeServer()
+
+     end)
+
+   end
+
+   wait(3601)
+
+end
