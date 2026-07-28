@@ -56,5 +56,5 @@ end
  end
 wait(5)
 --droptrade
-
+game:GetService("ReplicatedStorage").API["TradeAPI/DeclineTrade"]:FireServer()
 -- next loop   
